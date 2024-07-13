@@ -194,7 +194,7 @@ const initDOMChangeListener = (brandId) => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const scriptTag = document.querySelector(
-    'script[src="domChangeListener.js"]'
+    'script[src="https://cdn.jsdelivr.net/gh/sushanthsp526/script-javascript/index.js"]'
   );
   const brandId = scriptTag.getAttribute("brand-id");
   const stopListening = initDOMChangeListener(brandId);
